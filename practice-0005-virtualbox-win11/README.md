@@ -59,20 +59,20 @@ virtualbox
 
 ### Step 2 – Create & Configure VM
 
-1. **New VM**  
-   - Name: Win11  
-   - Type: Microsoft Windows → Windows 11 (64-bit)  
-   - RAM: 4 GB (minimum)  
-   - CPUs: 2+ cores  
-   - Enable EFI  
+1. **New**  
 
-2. **Virtual Disk**  
-   - 50 GB, VDI, dynamically allocated  
+2. **Virtual machine Name and Operating System**  
+   - ISO Image: win11.iso
 
-3. **Mount ISO**  
-   - Settings → Storage → Add Optical Drive → Select `win11.iso`  
+3. **Hardware**  
+   - RAM: 4 GB+
+   - CPUs: 2+ cores
+   - Enable EFI
 
-4. **Performance tweaks**  
+4. **Virtual Disk**  
+   - 50 GB, dynamically allocated  
+
+5. **Performance tweaks**  
    - System: Enable I/O APIC  
    - Display: 128 MB VRAM, enable 3D acceleration  
 
