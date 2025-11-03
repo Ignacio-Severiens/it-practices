@@ -82,8 +82,6 @@ Replace the default ISP-provided DNS server with a more private and secure one.
 | DNS reverted to default | Set `ignore-auto-dns yes` for both IPv4 and IPv6 |
 | Initially forgot IPv6 DNS | Applied same method as IPv4 with `ipv6.dns` and `ipv6.ignore-auto-dns` |
 
-⚠️ **Note:** While I configured Quad9 DNS, https://dnsleaktest.com showed my queries were being resolved by ISP-operated DNS servers, which indicates potential interception. I will investigate how to enforce encrypted DNS to prevent this.
-
 ---
 
 ## 📚 What I Learned
